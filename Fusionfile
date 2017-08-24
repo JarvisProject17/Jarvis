@@ -1,0 +1,9 @@
+---
+app:
+ name: jarvis
+ portfolio: information management
+ platform: nodejs
+ upstream: nginx
+ auth_type: basic
+ port: 80
+ config_version: latest

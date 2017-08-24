@@ -5,7 +5,7 @@ var path = require('path');
 var query = require('./query.js');
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.sendFile(path.join(__dirname, '../', 'views', 'index3.html'));
+  res.sendFile(path.join(__dirname, '../', 'views', 'index.html'));
 });
 
 router.get('/filings', function(req,res){
